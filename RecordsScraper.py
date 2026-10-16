@@ -1,4 +1,3 @@
-```python
 from pathlib import Path
 import re
 import fitz  # PyMuPDF
@@ -231,4 +230,3 @@ if len(records):
 
     for document_type, count in counts.items():
         print(f"  {document_type}: {count}")
-```
